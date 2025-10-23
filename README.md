@@ -4,6 +4,7 @@
 
 **Trader Behavior & Market Sentiment Analysis** is a comprehensive data science project that explores the relationship between cryptocurrency trader behavior on Hyperliquid exchange and Bitcoin market sentiment using Fear & Greed Index data.
 
+
 ## ✨ Features
 
 - 📈 **Trader Behavior Analysis** – Profiling of trading patterns, profitability, and volume trends
@@ -11,6 +12,7 @@
 - 🔍 **Statistical Correlation** – Identifying relationships between sentiment and trader performance
 - 📊 **Interactive Visualizations** – Comprehensive charts and graphs for data storytelling
 - 💡 **Strategic Insights** – Actionable recommendations for trading strategy optimization
+  
 
 ## 🛠 Tech Stack
 
@@ -20,6 +22,7 @@
 | Visualization | Matplotlib, Seaborn |
 | Statistical Analysis | SciPy |
 | Development Environment | Google Colab |
+
 
 ## 📂 Project Structure
 ```bash
@@ -56,6 +59,7 @@ outputs/
 
 -`Fear & Greed Index Data` – 2,644 daily records (2018-2024)
 
+
 ## 📈 How It Works
 
 1. **Data Collection & Cleaning**  
@@ -71,36 +75,38 @@ outputs/
    Actionable recommendations based on data patterns
 
 
-# 📈 Analysis Steps
 
-## Step 1: Data Loading & Initial Setup
+
+## 📈 Analysis Steps
+
+### Step 1: Data Loading & Initial Setup
 - Load historical trader data and sentiment data
 - Install required packages
 - Basic data exploration
 
-## Step 2: Data Cleaning & Preprocessing
+### Step 2: Data Cleaning & Preprocessing
 - Handle missing values
 - Convert data types
 - Merge datasets
 - Data quality assessment
 
-## Step 3: Exploratory Data Analysis (EDA)
+### Step 3: Exploratory Data Analysis (EDA)
 - Profitability analysis
 - Trading volume patterns
 - Sentiment distribution
 - Trading activity by hour
 
-## Step 4: Correlation Analysis
+### Step 4: Correlation Analysis
 - Sentiment vs trading behavior correlations
 - Statistical relationship identification
 - Heatmap visualization
 
-## Step 5: Advanced Analysis
+### Step 5: Advanced Analysis
 - Risk-return analysis
 - Trader consistency patterns
 - Strategy insights generation
 
-## Step 6: Report Generation
+### Step 6: Report Generation
 - Comprehensive PDF report
 - Strategic recommendations
 - Visualization summaries
@@ -123,7 +129,7 @@ Open notebook_1.ipynb in Google Colab or Jupyter Notebook and execute cells sequ
 
 ```
 
-# 🔍 Key Findings
+## 🔍 Key Findings
 
 - 📈 **Peak trading activity**: 2 PM - 4 PM IST
 - 💰 **Only 40% of trades** were profitable
@@ -133,26 +139,26 @@ Open notebook_1.ipynb in Google Colab or Jupyter Notebook and execute cells sequ
 
 ---
 
-# 🚀 Strategic Recommendations
+## 🚀 Strategic Recommendations
 
-## Trading Strategy
+### Trading Strategy
 - Implement **sentiment-based position sizing**
 - Focus on **Neutral to Greed periods** for best returns
 - Avoid **Extreme sentiment periods** for consistent performance
 
-## Risk Management
+### Risk Management
 - Reduce position size during **Extreme Fear/Greed**
 - Implement **sentiment-based stop-loss** triggers
 - Monitor **trading volume patterns** for entry signals
 
-## Operational Efficiency
+### Operational Efficiency
 - Align trading hours with **peak activity periods**
 - Focus on **high-consistency trader** strategies
 - Use **real-time sentiment data** for decision making
 
 ---
 
-# 📊 Visualizations Included
+## 📊 Visualizations Included
 
 - `pnl_distribution.png` - Profit & Loss distribution across trades
 - `trading_volume_by_side.png` - BUY vs SELL volume comparison
